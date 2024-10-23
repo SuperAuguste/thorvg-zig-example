@@ -1,0 +1,21 @@
+.{
+    .name = "thorvg-example",
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .thorvg = .{
+            .url = "git+https://github.com/allyourcodebase/thorvg#1136b92637b657600da324cc92424da51ad46621",
+            .hash = "122096cb546e6d970fbae51b5ae55d87b50ea974310accb4c307302ce2dc6ae8ffdb",
+        },
+        .sdl = .{
+            .url = "git+https://github.com/allyourcodebase/SDL#1f33c11a0b6023234732e4a751499694be554141",
+            .hash = "1220205e1f89c692800ebe01edb09bba8f314368bbd7562d6807bb210d43aea1a347",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
